@@ -2,13 +2,19 @@
   "name": "node-starter",
   "private": true,
   "scripts": {
-    "01": "jest __tests__/01.test.js --runInBand",
-    "02": "jest __tests__/02.test.js",
-    "03": "jest __tests__/03.test.js",
-    "04": "jest __tests__/04.test.js",
-    "05": "jest __tests__/05.test.js"
+    "01": "vitest __tests__/01.test.ts ",
+    "02": "vitest __tests__/02.test.ts",
+    "03": "vitest __tests__/03.test.ts",
+    "04": "vitest __tests__/04.test.ts",
+    "05": "vitest __tests__/05.test.ts"
   },
   "dependencies": {
     "jest": "25.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
   }
 }
