@@ -1,0 +1,14 @@
+{
+  "name": "node-starter",
+  "private": true,
+  "scripts": {
+    "01": "jest __tests__/01.test.js --runInBand",
+    "02": "jest __tests__/02.test.js",
+    "03": "jest __tests__/03.test.js",
+    "04": "jest __tests__/04.test.js",
+    "05": "jest __tests__/05.test.js"
+  },
+  "dependencies": {
+    "jest": "25.1.0"
+  }
+}
